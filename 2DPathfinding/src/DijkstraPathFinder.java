@@ -1,17 +1,14 @@
 import java.awt.Point;
 
-
+/** Determines the shortest path from a given starting location to EVERY other spot on the given grid */
 public class DijkstraPathFinder {
-	//Dijkstra's algorithm is essentially A*, but with no heuristic
 	
-	private AStarPathFinder pfer;
-	
+	/**
+	 * 
+	 * @param grid The grid to find paths on.
+	 */
 	public DijkstraPathFinder(Grid grid){
-		pfer = new AStarPathFinder(grid, AStarPathFinder.HEURISTIC_NONE);
 		
-	}
-	
-	public Path findPath(Point start, Point end){
-		return pfer.findPath(start, end);
+		
 	}
 }

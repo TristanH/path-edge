@@ -16,7 +16,7 @@ public class Frame extends JFrame{
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setResizable(false);
 		this.setVisible(true);
-		add(new Demo());
+		add(new Demo1_AStar());
 	}
 	
 	public static void main(String[] args){
