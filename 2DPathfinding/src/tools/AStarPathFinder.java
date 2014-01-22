@@ -1,3 +1,4 @@
+package tools;
 import java.awt.Point;
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -132,7 +133,7 @@ public class AStarPathFinder {
 					14*yDist + 10*(xDist-yDist) : 
 					14*xDist + 10*(yDist-xDist);
 		}
-		else if(heuristicType ==0)
+		else 
 			hscore[to]=0;
 	}
 

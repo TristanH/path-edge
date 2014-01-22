@@ -1,3 +1,4 @@
+package tools;
 import java.awt.Point;
 
 /** An implementation of the Floyd-Warshall Algorithm, which will find the shortest distance from every point to every other point on the grid */
